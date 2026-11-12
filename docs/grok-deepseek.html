@@ -137,6 +137,7 @@ Tool `image_edit` failed: Image edit failed with HTTP 400 Bad Request: {&quot;co
 ```
 Image edit failed with HTTP 400 Bad Request: {&quot;code&quot;:&quot;imagine:content-moderated&quot;,&quot;error&quot;:&quot;Generated image rejected by content moderation.&quot;,&quot;usage&quot;:{&quot;cost_in_usd_ticks&quot;:500000000}}
 ```</td></tr></tbody></table></div>
+<div class="callout fail" style="margin-top:12px"><strong>拦截也计费：</strong>Grok 的错误 JSON 里带 <code>usage.cost_in_usd_ticks=500000000</code>（约 $0.05）；本轮所有 blocked 调用都计了成本，已算进总成本。不要用“被拦”来免费试额度。</div>
 <div class="callout fail" style="margin-top:12px">DeepSeek 侧：原裙改短、束腰胸衣、透纱、露肩原裙、塞壬透纱、泳装、连体泳装、内衣、暗示裸体、湿身透视、性感女仆改版——全部被拦；只有 06（科技贴身新衣）、14（原裙露肩收腰）、15（长裙高开衩）、16（塞壬高领开衩）通过。04 是 API 失败（非拦截），单独标记。</div>
 </section>
 
