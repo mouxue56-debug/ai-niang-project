@@ -3,8 +3,9 @@
 > 19 位 AI 子模型拟人角色卡。非官方、非商业同人二创；角色均为 22 岁成年虚构设定。
 > 保留原角色的脸、妆容、发型与气质，只重做服饰与配饰；图像由 Codex 内置 ImageGen（按作者称呼记为 Image 2.6）生成，Grok CLI `image_edit` 用于开放度边界测试。
 
-**在线报告：** <https://mouxue56-debug.github.io/ai-niang-project/>  
-**项目记录：** `docs/index.html` · **逐角色署名：** [`NOTICE.md`](NOTICE.md)
+**最新小样（Grok 性感边界 · DeepSeek 娘）：** <https://mouxue56-debug.github.io/ai-niang-project/grok-deepseek.html>  
+**完整 19 人「重装化」失败记录：** <https://mouxue56-debug.github.io/ai-niang-project/>  
+**逐角色署名：** [`NOTICE.md`](NOTICE.md)
 
 ---
 
